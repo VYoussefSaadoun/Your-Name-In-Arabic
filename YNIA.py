@@ -16,7 +16,6 @@ def eTA(name):
             mname = name.replace(name[count], "", 1)
         else:
             arr.append(letter)
-    print(mname)
     for letter in mname:
         counter += 1
         if letter in "ACcEeIHhSsuXxTt":
